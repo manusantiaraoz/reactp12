@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     consultarAPI();
-  }, [pais,noticias]);
+  }, [pais]);
   //usar si o si los corchetitos, porque sino se hara un bucle infinito
 
   const paises = [
